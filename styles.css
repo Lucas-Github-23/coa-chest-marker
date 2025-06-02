@@ -1,0 +1,68 @@
+body {
+  font-family: 'VT323', monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc;
+  color: #000;
+}
+
+header {
+  background-color: #8c6b4a;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+#item-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.item {
+  background-color: #d3b58c;
+  border: 2px solid #8c6b4a;
+  border-radius: 6px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.3;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.item.collected {
+  opacity: 1;
+}
+
+.item img {
+  max-width: 100%;
+  image-rendering: pixelated;
+}
+
+/* Esconde o nome inicialmente */
+.item-name {
+  display: none;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+/* Exibe o nome ao passar o mouse */
+.item:hover .item-name {
+  display: block;
+}

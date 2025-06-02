@@ -1,0 +1,17 @@
+const items = [
+	{name: "Tin Ore", image: "Tin_Ore_m.png"},
+  {name: "Copper Ore", image: "Copper_Ore_m.png"},
+  { name: "Iron Ore", image: "Iron_Ore_m.png" },
+  {name: "Salt", image: "Salt_m.png"},
+  {name: "Coal", image: "Coal_m.png"},
+  {name: "Crimstell Ore", image: "Crimsteel_Ore_m.png"},
+  {name: "Gold Ore", image: "Gold_Ore_m.png"},
+  {name: "Pink Salt", image: "Pink_Salt_m.png"},
+  {name: "Mythan Ore", image: "Mythan_Ore_m.png"},
+  {name: "Sandstone", image: "Sandstone_m.png"},
+  {name: "Cobalt Ore", image: "Cobalt_Ore_m.png"},
+  {name: "Varaxium", image: "Varaxium_m.png"},
+  {name: "Black Salt", image: "Black_Salt_m.png"},
+  {name: "Magic Ore", image: "Magic_Ore_m.png"},
+  {name: "Naturite", image: "Naturite_m.png"},
+];
